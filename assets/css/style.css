@@ -1,0 +1,47 @@
+nav .navbar-brand {
+	font-size: 2em;
+}
+#profilepic {
+	width: 200px;
+ 	height: 150px;
+ 	float: left;
+ 	margin-right: 10px;
+ 	margin-bottom: 10px;
+}
+.connect {
+	text-align: center;
+}
+.icon {
+	height: 60px;
+	width: 60px;
+	margin: 5px;
+}
+.thumbnail {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.projectimg {
+	display: inline-block;
+	text-align: center;
+	margin: 0px 35px;
+}
+.projectimg h3 {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.projectimg:hover {
+	background-color: #e7e7e7;
+}
+.clear {
+	height: 100px;
+}
+.text-center p {
+	margin-top: 10px;
+	padding-top: 5px;
+	color: #98978b;
+}
+@media screen and (max-width: 1024px) {
+	.projectimg {
+		margin: 0px auto;
+	}
+}
